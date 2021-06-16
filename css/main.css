@@ -57,6 +57,15 @@ body {
 
 /* Main header styles */
 
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 16px 0px rgb(0 0 0 / 10%);
+}
+
 .main-header__brand {
     display: inline-block;
     vertical-align: middle;
@@ -298,4 +307,45 @@ body {
 
 .besh {
     color: #ced6c0;
+}
+
+
+/* portfolio section styles */
+
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio-item {
+    position: relative;
+    display: inline-block;
+}
+
+.potfolio-item__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19, 69, 230, 0.9);
+    visibility: hidden;
+}
+
+.potfolio-item__info {
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+}
+
+.potfolio-item__info a {
+    text-decoration: none;
+    color: white;
+}
+
+.potfolio-item:hover.potfolio-item__overlay {
+    visibility: visible;
+    top: 20px;
+    left: 20px;
 }
