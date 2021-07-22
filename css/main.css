@@ -398,3 +398,100 @@
     display: inline-block;
     padding: 0 1.125rem;
 }
+
+@media only screen and (max-width: 991px) {
+    /* Main section */
+    .main-section__image {
+        display: none;
+    }
+    .main-section>div {
+        width: 100%;
+    }
+    /* statistics */
+    .statistics {
+        padding-top: 1rem;
+        text-align: center;
+    }
+    /* about my section */
+    .about-me {
+        padding: 1.5em;
+    }
+    .about-me>div {
+        width: 100%;
+    }
+    .about-me__image {
+        display: none;
+    }
+    /* services */
+    .services {
+        padding: 1.5rem 0;
+    }
+    .service-card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    /* Clents */
+    .clients {
+        padding: 1.5rem 0;
+    }
+    .client-item>div {
+        width: 100%;
+        float: none;
+    }
+    /* blog */
+    .blog {
+        padding: 1.5rem 0;
+    }
+    .blog-item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    /* partner */
+    .partners {
+        padding: 1.5rem;
+    }
+    .partner {
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Main section */
+    .main-banner {
+        background: none;
+        min-height: auto;
+    }
+    .main-section__action {
+        display: none;
+    }
+    .main-section__introduction {
+        font-size: 3rem;
+    }
+    /*Statistics */
+    .statistics__item {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    /*  Sarvices section*/
+    .service-card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    /* portfolio */
+    .portfolio {
+        padding: 1.5rem 0;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-item-2,
+    .portfolio-item-3 {
+        position: static;
+    }
+}
