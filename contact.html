@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Hotjar Tracking Code for My site -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 2460370,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+
+    <title>Portfolio-Bog'lanish</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item ">
+                        <a href="index.html">Asosiy</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Sheriklar</a>
+                    </li>
+                    <li class="main-navigation__item active">
+                        <a href="./contact.html">Bog'lanish</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /Header section -->
+    <div class="container">
+        <section class="contact">
+            <div class="section-title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea name="message" id="" cols="0" rows="10" placeholder="Xabaringizni kiriting"></textarea>
+                <div class="half-row contact__firstname">
+                    <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                </div>
+                <div class="half-row contact__email">
+                    <input type="email" placeholder="emailingizni kiriting" name="email">
+                </div>
+                <input type="text" placeholder="Xat mazmuni" name="subject">
+                <button class="button contact__send" type="submit">Xabar jo'natish</button>
+            </form>
+        </section>
+    </div>
+
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="./images/logo.png" alt="Logo">
+            </div>
+            <nav class="footer__navigation">
+                <ul class="footer__navigation-items">
+                    <li class="footer__navigation-item">
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Sheriklar</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer__text">
+                Copyright ©2021 All rights reserved | This template is made with by Colorlib
+            </p>
+        </div>
+    </footer>
+    <!-- /Footer section -->
+</body>
+
+</html>
