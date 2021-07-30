@@ -77,11 +77,13 @@
             </div>
             <form action="/server.php" method="GET">
                 <textarea name="message" id="" cols="0" rows="10" placeholder="Xabaringizni kiriting"></textarea>
-                <div class="half-row contact__firstname">
-                    <input type="text" placeholder="Ismingizni kiriting" name="firstname">
-                </div>
-                <div class="half-row contact__email">
-                    <input type="email" placeholder="emailingizni kiriting" name="email">
+                <div class="half-flex">
+                    <div class="contact__firstname">
+                        <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                    </div>
+                    <div class="contact__email">
+                        <input type="email" placeholder="emailingizni kiriting" name="email">
+                    </div>
                 </div>
                 <input type="text" placeholder="Xat mazmuni" name="subject">
                 <button class="button contact__send" type="submit">Xabar jo'natish</button>
